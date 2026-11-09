@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tolerance": 1e-07,
+  "max_deviation": 2.1316282072803006e-14,
+  "objective_recalculated": 3761.25,
+  "objective_solver": 3761.25,
+  "objective_gap": 0.0
+}

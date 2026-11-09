@@ -1,0 +1,12 @@
+constraint,type,rhs,lhs,slack,active,shadow_price,rhs_change_convention
+demand_O1,demand equality,35,34.999999999999986,1.4210854715202004e-14,True,-107.49999999999996,objective change ≈ marginal × RHS change
+demand_O2,demand equality,42,41.99999999999999,1.4210854715202004e-14,True,52.50000000000001,objective change ≈ marginal × RHS change
+demand_O3,demand equality,21,21.0,3.552713678800501e-15,True,92.49999999999996,objective change ≈ marginal × RHS change
+demand_O4,demand equality,41,41.00000000000001,-7.105427357601002e-15,True,132.49999999999994,objective change ≈ marginal × RHS change
+demand_O5,demand equality,24,24.00000000000002,-2.131628207280301e-14,True,-68.33333333333331,objective change ≈ marginal × RHS change
+demand_O6,demand equality,18,18.0,0.0,True,-23.124999999999996,objective change ≈ marginal × RHS change
+stock_T1,stock upper bound,64,0.0,64.0,False,-0.0,objective change ≈ marginal × RHS change
+stock_T2,stock upper bound,63,0.0,63.0,False,-0.0,objective change ≈ marginal × RHS change
+stock_T3,stock upper bound,60,0.0,60.0,False,-0.0,objective change ≈ marginal × RHS change
+stock_T4,stock upper bound,53,34.124999999999986,18.87500000000001,False,-0.0,objective change ≈ marginal × RHS change
+stock_T5,stock upper bound,50,8.000000000000007,41.99999999999999,False,-0.0,objective change ≈ marginal × RHS change

@@ -1,0 +1,10 @@
+{
+  "method": "highs-ds",
+  "status_code": 2,
+  "status": "infeasible",
+  "success": false,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)",
+  "objective": null,
+  "solve_time_seconds": 0.00611631900028442,
+  "iterations": 16
+}

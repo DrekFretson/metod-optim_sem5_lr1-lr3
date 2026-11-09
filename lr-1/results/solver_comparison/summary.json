@@ -1,0 +1,8 @@
+{
+  "repeats_per_method": 7,
+  "methods": [
+    "highs-ds",
+    "highs-ipm"
+  ],
+  "objective_baseline": 3761.25
+}

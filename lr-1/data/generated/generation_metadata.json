@@ -1,0 +1,38 @@
+{
+  "individual_parameters": {
+    "N": 5,
+    "Q": 1,
+    "Y": 26,
+    "V": 19
+  },
+  "seed": 10105,
+  "python_version": "3.14.4",
+  "numpy_version": "2.3.3",
+  "generated_at_utc": "2026-11-09T22:44:37.983879+00:00",
+  "algorithm": "numpy.random.default_rng(10105); pipe lengths sampled uniformly from 6000..8500 mm and order lengths from 1200..2200 mm in 10 mm steps, then sorted; demand sampled uniformly as integers from 18..50; stock_i=max(12, ceil(sum(demand)*max(order_length)/pipe_length_i)+5).",
+  "source_parameters": {
+    "pipe_length_mm_range": [
+      6000,
+      8500
+    ],
+    "order_length_mm_range": [
+      1200,
+      2200
+    ],
+    "demand_pcs_range": [
+      18,
+      50
+    ]
+  },
+  "units": {
+    "length": "mm",
+    "stock": "pipes",
+    "demand": "pieces"
+  },
+  "assumptions": [
+    "Kerf = 0 mm; no cutting loss beyond unused remainder.",
+    "Stocks are per type and are deliberately sufficient for baseline demand.",
+    "Continuous averaged LP; pipe quantities may be fractional.",
+    "Each order is met exactly; no overproduction is permitted."
+  ]
+}

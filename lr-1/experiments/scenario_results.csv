@@ -1,0 +1,4 @@
+scenario,status,objective_waste_mm,solve_time_seconds,total_pipes_lp,message
+baseline,optimal,3761.25,0.01556936399992992,42.12499999999999,Optimization terminated successfully. (HiGHS Status 7: Optimal)
+shortage,optimal,3761.25,0.00567048299990347,42.12499999999999,Optimization terminated successfully. (HiGHS Status 7: Optimal)
+stress,infeasible,,0.00611631900028442,,The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)

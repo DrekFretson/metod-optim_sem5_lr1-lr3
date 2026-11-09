@@ -1,0 +1,10 @@
+{
+  "method": "highs-ds",
+  "status_code": 0,
+  "status": "optimal",
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective": 3761.25,
+  "solve_time_seconds": 0.01556936399992992,
+  "iterations": 11
+}

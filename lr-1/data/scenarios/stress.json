@@ -1,0 +1,15 @@
+{
+  "name": "stress",
+  "changed_pipe_type": "T4",
+  "stock_before": 53.0,
+  "stock_after": 42.400000000000006,
+  "demand_multiplier": 12,
+  "orders": [
+    "O1",
+    "O2",
+    "O3",
+    "O4",
+    "O5",
+    "O6"
+  ]
+}
