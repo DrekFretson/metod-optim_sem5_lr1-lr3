@@ -1,0 +1,33 @@
+{
+  "status_code": 0,
+  "status": "optimal",
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective_value": 210.0,
+  "incumbent_objective": 210.0,
+  "solve_time_seconds": 0.004455028999473143,
+  "mip_node_count": 1,
+  "mip_gap": 0.0,
+  "options": {
+    "disp": false,
+    "presolve": true,
+    "mip_rel_gap": 0.0
+  },
+  "activation_limit": 8,
+  "enabled_server_ids": [
+    "SRV01",
+    "SRV02",
+    "SRV03",
+    "SRV04",
+    "SRV05",
+    "SRV06",
+    "SRV07",
+    "SRV08"
+  ],
+  "disabled_server_ids": [],
+  "total_assignment_cost": 210.0,
+  "activation_cost": 0.0,
+  "number_of_enabled_servers": 8,
+  "remaining_activation_slots": 0,
+  "validation_passed": true
+}

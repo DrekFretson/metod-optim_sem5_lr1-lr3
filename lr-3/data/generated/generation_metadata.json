@@ -1,0 +1,35 @@
+{
+  "N": 5,
+  "Q": 1,
+  "Y": 26,
+  "group": 517,
+  "variant_formula": "1 + ((17*N + 7*Q + Y) mod 20)",
+  "variant": 19,
+  "seed": 10105,
+  "python_version": "3.14.4",
+  "numpy_version": "2.3.3",
+  "pandas_version": "2.3.3",
+  "scipy_version": "1.16.2",
+  "highs_version": "1.8.0",
+  "generated_at_utc": "2026-11-09T23:45:00.441705+00:00",
+  "server_count": 8,
+  "task_count": 16,
+  "baseline_activation_limit_K": 5,
+  "assignment_cost_range": [
+    8,
+    75
+  ],
+  "algorithm": "numpy.random.default_rng(10105); integer positive assignment costs; each server is preselected as the preferred server for two shuffled tasks, with preferred costs 8..19 and other costs 28..75; all servers available; no fixed activation cost or resource capacities.",
+  "units": {
+    "assignment_cost": "conditional monetary units per task",
+    "activation_cost": "not used",
+    "K": "servers"
+  },
+  "assumptions": [
+    "Each task is indivisible and must be assigned to exactly one server.",
+    "Servers have no task-count, memory, CPU, or throughput capacity constraints.",
+    "All servers are available in the generated baseline data.",
+    "Only the number of enabled servers is limited; activation has no fixed cost.",
+    "Assignment variables and enabled-server variables are binary."
+  ]
+}

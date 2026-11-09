@@ -1,0 +1,4 @@
+server_id,server_name,available,enabled,assigned_tasks,assignment_cost
+SRV01,Вычислительный сервер 1,1,1,4,87.0
+SRV04,Вычислительный сервер 4,1,1,7,217.0
+SRV08,Вычислительный сервер 8,1,1,5,147.0

@@ -1,0 +1,16 @@
+{
+  "status_code": 0,
+  "status": "optimal",
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective_value": 451.0,
+  "incumbent_objective": 451.0,
+  "solve_time_seconds": 0.010554332000538125,
+  "mip_node_count": 1,
+  "mip_gap": 0.0,
+  "options": {
+    "disp": false,
+    "presolve": true,
+    "mip_rel_gap": 0.0
+  }
+}

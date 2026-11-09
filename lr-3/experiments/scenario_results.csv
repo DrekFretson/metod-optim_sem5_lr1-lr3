@@ -1,0 +1,4 @@
+scenario,solver_status,objective_value,number_of_servers,number_of_tasks,activation_limit,enabled_servers,disabled_servers,total_assignment_cost,total_activation_cost,solve_time,mip_gap,independent_validation_passed
+baseline,optimal,315.0,8,16,5,5,3,315.0,0.0,0.007428966999214026,0.0,True
+shortage,optimal,380.0,8,16,4,4,4,380.0,0.0,0.011952009000196995,0.0,True
+stress,optimal,451.0,8,16,3,3,5,451.0,0.0,0.010554332000538125,0.0,True

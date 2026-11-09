@@ -1,0 +1,7 @@
+activation_limit,solver_status,objective_value,enabled_servers,solve_time,mip_gap,independent_validation_passed
+3,optimal,442.0,3,0.023590499000420095,0.0,True
+4,optimal,372.0,4,0.013466624000102456,0.0,True
+5,optimal,315.0,5,0.00417755800026498,0.0,True
+6,optimal,269.0,6,0.003995869000391394,0.0,True
+7,optimal,236.0,7,0.004124342000068282,0.0,True
+8,optimal,210.0,8,0.004455028999473143,0.0,True

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tolerance": 1e-07,
+  "number_of_checks": 36,
+  "violations": 0,
+  "max_residual": 0.0,
+  "independent_objective": 380.0,
+  "solver_objective": 380.0,
+  "objective_gap": 0.0,
+  "enabled_servers": 4,
+  "assigned_tasks": 16
+}
