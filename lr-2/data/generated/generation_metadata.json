@@ -1,0 +1,42 @@
+{
+  "N": 5,
+  "Q": 1,
+  "Y": 26,
+  "group": 517,
+  "variant_formula": "1 + ((17*N + 7*Q + Y) mod 20)",
+  "variant": 19,
+  "seed": 10105,
+  "python_version": "3.14.4",
+  "numpy_version": "2.3.3",
+  "pandas_version": "2.3.3",
+  "scipy_version": "1.16.2",
+  "highs_version": "1.8.0",
+  "generated_at_utc": "2026-11-09T23:20:25.805901+00:00",
+  "warehouses": 5,
+  "stores": 6,
+  "potential_routes": 30,
+  "allowed_routes": 22,
+  "forbidden_routes": 8,
+  "algorithm": "default_rng(10105); random integer demands 38..60; random route mask p=0.50 with chain backbone and at least two incoming arcs per store; route costs random 7..30 plus an index distance component; initial capacities are balanced as ceil(total demand / warehouse count)+4, expanded together if needed; a cheapest-allowed-arc allocation is retained as a constructive feasibility certificate; feasibility is independently checked with linprog/HiGHS.",
+  "ranges": {
+    "store_demand_units": [
+      38,
+      60
+    ],
+    "unit_cost_per_unit": "7..30 plus index distance component"
+  },
+  "units": {
+    "supply": "product units",
+    "demand": "product units",
+    "unit_cost": "currency units per product unit",
+    "total_cost": "currency units"
+  },
+  "assumptions": [
+    "Continuous flow quantities represent aggregated shipments.",
+    "Every store demand is met exactly.",
+    "Warehouse supply is an upper bound and unused supply is allowed.",
+    "Forbidden routes are excluded from decision variables.",
+    "No route capacity, fixed activation cost, time window, or loss is modeled."
+  ],
+  "feasibility_check": "Passed by a separate zero-cost transportation LP before saving data."
+}

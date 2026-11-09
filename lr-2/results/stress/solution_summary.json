@@ -1,0 +1,17 @@
+{
+  "method": "highs",
+  "status_code": 2,
+  "status": "infeasible",
+  "success": false,
+  "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+  "objective_value": null,
+  "iterations": 10,
+  "solve_time_seconds": 0.0020248419996278244,
+  "total_supply": 264.0,
+  "total_demand": 300.4,
+  "used_supply": null,
+  "unused_supply": null,
+  "number_of_allowed_routes": 21,
+  "number_of_used_routes": null,
+  "independent_validation_passed": null
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "tolerance": 1e-07,
+  "max_residual": 0.0,
+  "independent_objective": 4461.0,
+  "solver_objective": 4461.0,
+  "objective_gap": 0.0,
+  "total_shipped": 279.0,
+  "forbidden_route_quantity": 0.0
+}

@@ -1,0 +1,4 @@
+scenario,solver_status,objective_value,total_supply,total_demand,used_supply,unused_supply,number_of_allowed_routes,number_of_used_routes,solve_time,independent_validation_passed
+baseline,optimal,4273.0,300.0,279.0,279.0,21.0,22,10.0,0.0034286459995200858,True
+shortage,optimal,4461.0,288.0,279.0,279.0,9.0,22,10.0,0.0023576490002596984,True
+stress,infeasible,,264.0,300.4,,,21,,0.0020248419996278244,

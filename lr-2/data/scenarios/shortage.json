@@ -1,0 +1,9 @@
+{
+  "name": "shortage",
+  "warehouse_id": "W3",
+  "reduction": 0.2,
+  "supply_before": 60.0,
+  "supply_after": 48.0,
+  "objective_change_from_baseline": 188.0,
+  "solver_status": "optimal"
+}

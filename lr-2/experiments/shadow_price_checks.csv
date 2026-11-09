@@ -1,0 +1,3 @@
+constraint_type,entity_id,rhs_delta,marginal,predicted_delta,actual_delta,absolute_error,status
+supply,W2,1.0,-3.5,-3.5,-3.5,0.0,optimal
+demand,S1,1.0,29.0,29.0,29.0,0.0,optimal

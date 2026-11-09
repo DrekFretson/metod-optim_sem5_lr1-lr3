@@ -1,0 +1,13 @@
+{
+  "method": "highs",
+  "status_code": 0,
+  "status": "optimal",
+  "success": true,
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "objective_value": 3760.0,
+  "iterations": 11,
+  "solve_time_seconds": 0.0022077120001995354,
+  "restricted_objective_value": 4273.0,
+  "cost_premium": 513.0,
+  "allowed_routes_when_unrestricted": 30
+}

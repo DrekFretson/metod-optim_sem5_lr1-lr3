@@ -1,0 +1,31 @@
+{
+  "name": "stress",
+  "warehouse_supply_reduction": {
+    "W2": {
+      "before": 60.0,
+      "after": 42.0,
+      "fraction": 0.3
+    },
+    "W4": {
+      "before": 60.0,
+      "after": 42.0,
+      "fraction": 0.3
+    }
+  },
+  "demand_increase": {
+    "S3": {
+      "before": 56.0,
+      "after": 67.2,
+      "fraction": 0.2
+    },
+    "S4": {
+      "before": 51.0,
+      "after": 61.199999999999996,
+      "fraction": 0.2
+    }
+  },
+  "additional_forbidden_route": {
+    "warehouse_id": "W3",
+    "store_id": "S3"
+  }
+}

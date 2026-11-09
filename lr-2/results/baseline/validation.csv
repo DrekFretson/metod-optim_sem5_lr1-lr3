@@ -1,0 +1,15 @@
+check,lhs,rhs,residual,passed
+supply_W1,39.0,60.0,0.0,True
+supply_W2,60.0,60.0,0.0,True
+supply_W3,60.0,60.0,0.0,True
+supply_W4,60.0,60.0,0.0,True
+supply_W5,60.0,60.0,0.0,True
+demand_S1,39.0,39.0,0.0,True
+demand_S2,40.0,40.0,0.0,True
+demand_S3,56.0,56.0,0.0,True
+demand_S4,51.0,51.0,0.0,True
+demand_S5,43.0,43.0,0.0,True
+demand_S6,50.0,50.0,0.0,True
+nonnegativity,0.0,0.0,0.0,True
+forbidden_routes_unused,0.0,0.0,0.0,True
+objective_recalculation,4273.0,4273.0,0.0,True
